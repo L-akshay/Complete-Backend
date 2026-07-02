@@ -1,7 +1,10 @@
 node_modules/
-bin/
-
-*.log
-
-*.tmp
-
+.env
+.env.*
+!.env.example
+Backend/node_modules/
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+Frontend/node_modules/
+Frontend/Frontend/node_modules/
